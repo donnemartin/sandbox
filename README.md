@@ -16,3 +16,12 @@ Nuclide requires Atom:
 ### Install Nuclide
 
 Under `Atom -> Preferences -> Settings -> Install Packages`, search for and install `Nuclide`.
+
+### Install Nuclide packages
+
+Under `Packages -> Settings View -> Manage Packages -> Settings` enable `Install Recommended Packages on Startup`, then restart Atom.
+
+Install Watchman:
+
+    $ brew update
+    $ brew install watchman
