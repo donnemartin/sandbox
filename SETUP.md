@@ -1,4 +1,4 @@
-# sandbox
+# Setup
 
 ## Hack
 
