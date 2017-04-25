@@ -52,3 +52,19 @@ Merge changes:
 Let Hg know we resolved a conflict:
 
     $ hg resolve
+
+List available bookmarks:
+
+    $ hg bookmarks
+
+Create a bookmark:
+
+    $ hg bookmarks my-feature
+
+Switch to a bookmark:
+
+    $ hg bookmarks my-other-feature
+
+Delete a bookmark
+
+    $ hg bookmark completed-feature
