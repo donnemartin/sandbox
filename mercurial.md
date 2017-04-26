@@ -68,3 +68,9 @@ Switch to a bookmark:
 Delete a bookmark
 
     $ hg bookmark completed-feature
+
+## Cheat sheets
+
+* [Reference 1](https://www.mercurial-scm.org/wiki/QuickReferenceCardsAndCheatSheets?action=AttachFile&do=view&target=Mercurial-Usage-v1.0bz-300dpi-color.png)
+* [Reference 2](https://www.mercurial-scm.org/wiki/QuickReferenceCardsAndCheatSheets?action=AttachFile&do=view&target=Mercurial-Cheatsheet-Adrian-v1.0.svg)
+* [Reference 3](https://www.cheatography.com/codeshane/cheat-sheets/mercurial-hg/)
