@@ -27,3 +27,8 @@ Nuclide uses Watchman to detect file and folder changes:
 
     $ brew update
     $ brew install watchman
+
+### Nuclide shortcuts
+
+* Format code: `Cmd+Shift+C`
+* Debugger: `Cmd+Shift+A`
