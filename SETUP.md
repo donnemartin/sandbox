@@ -2,14 +2,14 @@
 
 ## Hack
 
-Install Hack:
+HHVM is a virtual machine that runs programs written in Hack and PHP:
 
     $ brew tap hhvm/hhvm
     $ brew install hhvm
 
 ## Nuclide
 
-Nuclide requires Atom:
+Nuclide is an Atom package to run Hack projects:
 
     $ brew cask install atom
 
@@ -21,7 +21,9 @@ Under `Atom -> Preferences -> Settings -> Install Packages`, search for and inst
 
 Under `Packages -> Settings View -> Manage Packages -> Settings` enable `Install Recommended Packages on Startup`, then restart Atom.
 
-Install Watchman:
+#### Watchman
+
+Nuclide uses Watchman to detect file and folder changes:
 
     $ brew update
     $ brew install watchman
