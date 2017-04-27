@@ -32,3 +32,12 @@ Nuclide uses Watchman to detect file and folder changes:
 
 * Format code: `Cmd+Shift+C`
 * Debugger: `Cmd+Shift+A`
+
+## Create a sample PHP file
+
+Create a `HelloWorld.php` file with the following contents:
+
+```
+<?hh
+echo "Hello World!";
+```
