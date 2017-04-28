@@ -41,3 +41,13 @@ Create a `HelloWorld.php` file with the following contents:
 <?hh
 echo "Hello World!";
 ```
+
+## Set up the type checker
+
+The type checker `hh_client` looks for the file `.hhconfig` as the root of your repo:
+
+    $ touch .hhconfig
+
+Check for errors:
+
+    $ hh_client
