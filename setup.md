@@ -51,3 +51,13 @@ The type checker `hh_client` looks for the file `.hhconfig` as the root of your 
 Check for errors:
 
     $ hh_client
+
+## Start up HHVM in command line mode
+
+    $ hhvm /path/to/HelloWorld.php "Hello World"
+
+## Start up HHVM in server mode
+
+Start HHVM in HHTP server mode and use port 8080.  Run the following then navigate to http://localhost:8080/HelloWorld.php:
+
+    $ hhvm -m server -p 8080
