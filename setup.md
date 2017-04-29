@@ -61,3 +61,18 @@ Check for errors:
 Start HHVM in HHTP server mode and use port 8080.  Run the following then navigate to http://localhost:8080/HelloWorld.php:
 
     $ hhvm -m server -p 8080
+
+## PHPUnit
+
+### Install PHPUnit
+
+Run the following commands:
+
+    $ wget https://phar.phpunit.de/phpunit.phar
+    $ chmod +x phpunit.phar
+    $ sudo mv phpunit.phar /usr/local/bin/phpunit
+    $ phpunit --version
+
+### Run tests
+
+    $ phpunit --bootstrap path/to/HelloWorld.php path/to/HelloWorldTestCase.php
