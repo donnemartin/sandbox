@@ -47,3 +47,29 @@ Clear the breakpoint at the listed index:
 Clear all breakpoints:
 
     hphpd> [b]reak [c]lear
+
+## Debugging
+
+Run the debugger until it hits the breakpoints:
+
+    hphpd> [r]un
+
+See where you are in the call stack:
+
+    hphpd> [w]here
+
+Continue:
+
+    hphpd> [c]ontinue
+
+Step over:
+
+    hphpd> [n]ext
+
+Step into:
+
+    hphpd> [s]tep
+
+Step out:
+
+    hphpd> [o]ut
