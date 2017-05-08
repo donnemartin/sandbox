@@ -73,3 +73,15 @@ Step into:
 Step out:
 
     hphpd> [o]ut
+
+Print local variables:
+
+    hphpd> [v]ariable
+
+Print a specific variable:
+
+    hphpd> [p]rint $foo
+
+Change a variable:
+
+    hphpd> $foo = 'foobar'
