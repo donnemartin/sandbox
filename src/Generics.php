@@ -13,9 +13,9 @@ class Store<T> {
   }
 }
 
-function main_generics(array<string> $argv): Store<string> {
+function mainGenerics(array<string> $argv): Store<string> {
   $result = new Store($argv[1]);
   return $result;
 }
 
-main_generics($argv);
+mainGenerics($argv);
