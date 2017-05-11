@@ -6,8 +6,15 @@ function exerciseVec(): void {
   echo var_dump($v);
 }
 
+function exerciseDict(): void {
+  $d = dict['foo' => 'bar'];
+  $d['baz'] = 0;
+  echo var_dump($d);
+}
+
 function mainHackArrays(array<string> $argv): void {
   exerciseVec();
+  exerciseDict();
 }
 
 mainHackArrays($argv);
