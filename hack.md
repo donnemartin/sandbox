@@ -13,3 +13,13 @@ For [strict mode](https://docs.hhvm.com/hack/typechecker/modes#strict-mode):
 ```
 <?hh // strict
 ```
+
+Hack supports typing for function arguments and return values:
+
+```
+<?hh
+
+function increment(int $number): int {
+  return $number+1;
+}
+```
