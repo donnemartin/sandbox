@@ -23,3 +23,17 @@ function increment(int $number): int {
   return $number+1;
 }
 ```
+
+Function arguments can allow for null:
+
+```
+<?hh
+
+function dump(?int $arg): void {
+    var_dump($arg);
+}
+
+function test_dump(): void {
+    dump(null);
+}
+```
