@@ -37,3 +37,7 @@ function test_dump(): void {
     dump(null);
 }
 ```
+
+## Coding standards
+
+See: https://secure.phabricator.com/book/phabcontrib/article/php_coding_standards/
