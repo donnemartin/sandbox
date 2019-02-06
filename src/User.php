@@ -27,3 +27,8 @@ function getUserName(?User $user): string {
   }
   return $user->getName();
 }
+
+function testGetUserName(?User $user): void {
+  $name1 = getUserName($user);
+  assert($name1 == 'Foo Bar');
+}
